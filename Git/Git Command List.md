@@ -42,3 +42,9 @@
 	```
 	- `chmod +x getAllBranches.sh`    
 	- `sh getAllBranches.sh`
+16. Store modified files temporarily
+	- `git stash`
+17. Restore modified files
+	- `git stash pop`
+18. List all stash
+	- `git stash list`
