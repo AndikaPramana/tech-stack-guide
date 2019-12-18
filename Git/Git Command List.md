@@ -32,7 +32,9 @@
 	- `git add {file_name}` ==> to add specific files
 4. Commit in Git
 	- `git commit -m "name of your commit"`
-5. Pushing a commit to remote branch
+5. Commit all tracked files automatically
+	- `git commit -a -m "name of commit"` ==> no need to use `git add` anymore
+6. Pushing a commit to remote branch
 	- `git push origin {branch_name}`
 
 ## Git tag
