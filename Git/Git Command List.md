@@ -25,9 +25,14 @@
 	- `git fetch`
 12. pull all changes from remote branch
 	- `git pull origin {branch_name}`
-14. Clone all remote branch to local
-	- touch getallbranch.sh
-	- vim getallbranch.sh
+13. Commit in Git
+	- `git commit -m "name of your commit"`
+14. Add files to commit
+	- `git add .`	==> to add all files 
+	- `git add {file_name}` ==> to add specific files
+15. Clone all remote branch to local
+	- `touch getallbranch.sh`
+	- `vim getallbranch.sh`
 	- paste the following command
 	
 	```
@@ -35,5 +40,5 @@
    	git branch --track ${branch#remotes/origin/} $branch
 	done
 	```
-	- chmod +x getAllBranches.sh    
-	- sh getAllBranches.sh
+	- `chmod +x getAllBranches.sh`    
+	- `sh getAllBranches.sh`
