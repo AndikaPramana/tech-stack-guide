@@ -1,12 +1,12 @@
-# Github Syntax 
+# Git Syntax 
 
-## config 
+## Config 
 1. Set the name of account 
 	- `git config --global user.name "{name}"`
 2. Set the email of account
 	- `git config --global user.email "{email}"`
 
-## basic
+## Basic
 1. Starting git in any directory
 	- `git init`
 2. Clone a repository 
