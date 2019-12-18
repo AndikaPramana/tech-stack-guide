@@ -8,9 +8,9 @@
 3. Because we are going to use multiple different version of python, then using pyenv is recommended
 	- `brew install pyenv`
 4. See the list of python version 
-	- pyenv install --list | grep " 3\.[678]"
+	- `pyenv install --list | grep " 3\.[678]"`
 5. Install the version of python using pyenv
-	- pyenv install -v 3.6.5
+	- `pyenv install -v 3.6.5`
 6. then we can see which version of python is installed
 	- `which python`
 7. python has 2 version: python 2.7 and python 3, and we can make alias to refer python as python3
