@@ -15,3 +15,14 @@
 	- `which python`
 7. python has 2 version: python 2.7 and python 3, and we can make alias to refer python as python3
 	- `alias python=python3`
+8. Choose global version of python through pyenv
+	- `pyenv global 3.6.5` 
+9. Choose local version of python through pyenv
+	- `pyenv local 3.6.5`
+10. UPDATE from may 2021
+	- add these to bash profile (.zshrc or .bashrc)
+	- `export PYENV_ROOT="$HOME/.pyenv"
+	   export PATH="$PYENV_ROOT/bin:$PATH"
+	   if command -v pyenv 1>/dev/null 2>&1; then
+	   	eval "$(pyenv init --path)"
+	   fi`	
